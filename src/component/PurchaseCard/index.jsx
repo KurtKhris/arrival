@@ -18,7 +18,8 @@ const plans = [
     priceBase: '4.3',
     priceExponent: '$',
     features: ['Number of Countries: 26', 'Valid for 7 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$30 | Buy Now'
+    finalP: '$30 | Buy Now',
+    link: 'https://rentsimconnect.com/selfservice/checkout/213'
   },
   {
     title: '2 Weeks Plan',
@@ -26,7 +27,8 @@ const plans = [
     priceBase: '2.85',
     priceExponent: '$',
     features: ['Number of Countries: 26', 'Valid for 14 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$40 | Buy Now'
+    finalP: '$40 | Buy Now',
+    link: 'https://rentsimconnect.com/selfservice/checkout/214'
   },
   {
     title: '3 Weeks Plan',
@@ -34,7 +36,8 @@ const plans = [
     priceBase: '2.2',
     priceExponent: '$',
     features:['Number of Countries: 26', 'Valid for 21 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$47 | Buy Now'
+    finalP: '$47 | Buy Now',
+    link: 'https://rentsimconnect.com/selfservice/checkout/215'
   }
 ]
 
@@ -44,7 +47,8 @@ const PlanCard = ({
   priceBase,
   priceExponent,
   features,
-  finalP
+  finalP,
+  link
 }) => {
   const theme = useTheme()
 
@@ -132,7 +136,7 @@ const PlanCard = ({
             </Stack>
           ))}
         </Stack>
-        <a href='https://rentsimconnect.com/selfservice/esim' target='_blank' rel='noreferrer noopener' style={{ textDecoration: 'none' }}>
+        <a href={link} target='_blank' rel='noreferrer noopener' style={{ textDecoration: 'none' }}>
           <Button
           size='text'
           sx={{
