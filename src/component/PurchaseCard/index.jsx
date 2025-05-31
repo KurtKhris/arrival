@@ -14,36 +14,32 @@ import { appColors } from '../../constants/color'
 const plans = [
   {
     title: '1 Week Plan',
-    desc: 'Charge per day',
     priceBase: '450.00',
     priceExponent: 'GHS',
     features: ['Number of Countries: 26', 'Valid for 7 days', 'unlimited data', 'Unlimited local & internet calls',],
     finalP: 'GHS 450.00 | Buy Now',
-    link: 'https://rentsimconnect.com/selfservice/checkout/213'
+    link: 'https://rentsimconnect.com/selfservice/checkout/279'
   },
   {
     title: '2 Weeks Plan',
-    desc: 'Charge per day',
     priceBase: '599.00',
     priceExponent: 'GHS',
     features: ['Number of Countries: 26', 'Valid for 14 days', 'unlimited data', 'Unlimited local & internet calls',],
     finalP: 'GHS 599.00 | Buy Now',
-    link: 'https://rentsimconnect.com/selfservice/checkout/214'
+    link: 'https://rentsimconnect.com/selfservice/checkout/257'
   },
   {
     title: '3 Weeks Plan',
-    desc: 'Charge per day',
     priceBase: '650.00',
     priceExponent: 'GHS',
     features:['Number of Countries: 26', 'Valid for 21 days', 'unlimited data', 'Unlimited local & internet calls',],
     finalP: 'GHS 650.00 | Buy Now',
-    link: 'https://rentsimconnect.com/selfservice/checkout/215'
+    link: 'https://rentsimconnect.com/selfservice/checkout/258'
   }
 ]
 
 const PlanCard = ({
   title,
-  desc,
   priceBase,
   priceExponent,
   features,
