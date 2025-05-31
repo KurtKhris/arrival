@@ -72,11 +72,6 @@ const PlanCard = ({
         <Typography variant='h6' fontWeight='bold'>
           {title}
         </Typography>
-        {desc && (
-          <Typography variant='body2' color='gray'>
-            {desc}
-          </Typography>
-        )}
         <Box
           sx={{
             display: 'flex',
