@@ -15,28 +15,28 @@ const plans = [
   {
     title: '1 Week Plan',
     desc: 'Charge per day',
-    priceBase: '4.3',
-    priceExponent: '$',
+    priceBase: '450.00',
+    priceExponent: 'GHS',
     features: ['Number of Countries: 26', 'Valid for 7 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$30 | Buy Now',
+    finalP: 'GHS 450.00 | Buy Now',
     link: 'https://rentsimconnect.com/selfservice/checkout/213'
   },
   {
     title: '2 Weeks Plan',
     desc: 'Charge per day',
-    priceBase: '2.85',
-    priceExponent: '$',
+    priceBase: '599.00',
+    priceExponent: 'GHS',
     features: ['Number of Countries: 26', 'Valid for 14 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$40 | Buy Now',
+    finalP: 'GHS 599.00 | Buy Now',
     link: 'https://rentsimconnect.com/selfservice/checkout/214'
   },
   {
     title: '3 Weeks Plan',
     desc: 'Charge per day',
-    priceBase: '2.2',
-    priceExponent: '$',
+    priceBase: '650.00',
+    priceExponent: 'GHS',
     features:['Number of Countries: 26', 'Valid for 21 days', 'unlimited data', 'Unlimited local & internet calls',],
-    finalP: '$47 | Buy Now',
+    finalP: 'GHS 650.00 | Buy Now',
     link: 'https://rentsimconnect.com/selfservice/checkout/215'
   }
 ]
